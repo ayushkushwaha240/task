@@ -2,7 +2,7 @@ async function sendQuery() {
     const query = document.getElementById("queryInput").value;
 
     try {
-        const response = await fetch('http://localhost:8000/find_best_match/', { // Update with your backend URL
+        const response = await fetch('https://ayushkush2402-task.hf.space/find_best_match/', { // Update with your backend URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
